@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!------------------- header section ------------------------>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <a href="#home" style="--i:1" class="active">Home</a>
+                <a href="#about" style="--i:2">About me</a>
+                <a href="#contact" style="--i:5">Formation</a>
+                <a href="#skills" style="--i:3">Skills</a>
+                <a href="#portfolio" style="--i:4">Projects</a>
+                <a href="#contact" style="--i:5">Contact</a>
+                <i class='bx bx-x' onclick="closemenu()"></i>
+            </ul>
+            <i class='bx bx-menu-alt-right' onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <!------------------- end of header section ----------------->
+
+    <!------------------- home page ----------------------------->
+    
+    <section class="home" id="home">
+        <div class="home-container">
+            <h3>Hello I'm</h3>
+            <h1>Heidy Guevara</h1>
+            <h3>And I am <span class="text1"></span></h3>
+            <p>Junior on mobile web and web developer
+                <br>with expertience in PHP, JavaScript, HTML and CSS. 
+                <br>Motivated by a strong aspiration to be part of a company that prioritizes teamwork. 
+                <br>Enthusiastic about share and adquire skills to contribute a dynamic and inventive collaborative setting.
+            </p>
+            <div class="home-sci">
+                <a href="#" style="--i:6"><i class='bx bxl-github'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!------------------- end of home page section -------------->
+
+    <!------------------- about me section ---------------------->
+
+    <section class="about-me" id="about">
+        <div class="image-me">
+            <img src="images/Lofi-final.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About<span> Me</span></h2>
+            <h4>Web developer</h4>
+            <p>Junior web developer on PHP with a formation on Wild Code School. My focus is on crafting compelling website designs and translating them into frontend development. 
+                I stay current with design trends, utilizing my creativity to produce visually engaging and user-friendly websites. 
+                My expertise includes a keen understanding of user experience (UX) 
+                and user interface (UI) principles. By empathizing with end-users, I aim to create intuitive and seamless browsing experiences. 
+                I believe a well-designed website should not only be visually appealing but also offer a smooth and enjoyable interaction for visitors.
+            </p>
+            <p>
+                Développeur web junior sur PHP avec une formation sur Wild Code School. Mon objectif est de créer des conceptions de sites Web convaincantes et de les traduire en développement front-end.
+                 Je reste au courant des tendances en matière de design, en utilisant ma créativité pour produire des sites Web visuellement attrayants et conviviaux.
+                 Mon expertise comprend une compréhension approfondie de l'expérience utilisateur (UX)
+                 et les principes de l’interface utilisateur (UI). En faisant preuve d'empathie avec les utilisateurs finaux, mon objectif est de créer des expériences de navigation intuitives et transparentes.
+                 Je pense qu’un site Web bien conçu doit non seulement être visuellement attrayant, mais également offrir une interaction fluide et agréable aux visiteurs.
+
+            </p>
+        </div>
+    </section>
+
+    <!---------------------- end of about me section ------------->
+
+    <!---------------------- Formation section ------------------->
+
+        <section id="formation" class="formation">
+            <div class="form-container">
+                <h1 class="sub-title">My <span>Formations</span></h1>
+                <div class="form-list">
+                    
+                </div>
+            </div>
+        </section>
+   
+    <!---------------------- skill section ----------------------->
+    <section id="skills" class="skills">
+        <h1 class="sub-title">My <span>Skills</span></h1>
+
+        <div class="skill-main">
+            <div class="skill-left">
+                <h3>Technical Skills</h3>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>72%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="JavaScript"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>PHP</p>
+                        <p>75%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="PHP"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>MySQL</p>
+                        <p>70%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="MySQL"></span>
+                    </div>
+                </div>
+
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>Git</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="Git"></span>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="skill-right">
+                <h3>Professional Skills</h3>
+                <div class="professional">
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Creativity</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="70"></div>
+                        <div class="text">
+                            <big>70%</big>
+                            <small>Comunication</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>Team Work</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="90"></div>
+                        <div class="text">
+                            <big>90%</big>
+                            <small>English</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="100"></div>
+                        <div class="text">
+                            <big>100%</big>
+                            <small>Spanish</small>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="circle" data-dots="80" data-percent="80"></div>
+                        <div class="text">
+                            <big>80%</big>
+                            <small>French</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------- end of skill section -------------------->
+
+    <!---------------- portfolio ------------------------------->
+
+    <section id="portfolio" class="portfolio">
+        <div class="main-text">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+        </div>
+
+        <div class="container-portfolio">
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/projecté.png">
+                    <div class="layer">
+                        <h1>MyEshop</h1>
+                        <p>Online shop for mangas BD and comics</p>
+                        <a href="https://github.com/gvara23/myeshop"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project1.png">
+                    <div class="layer">
+                        <h1>Games cheklist</h1>
+                        <p>Group creation of a website on the theme of video games. The site offers task lists corresponding to video game trophies. 
+                        This support will allow the user to complete a game 100%.</p>
+                        <a href="https://github.com/gvara23/jeux-video-checklist"><i class='bx bx-link-external'></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/gvara23?tab=repositories" class="btn">See more</a>
+        </div>
+    </section>
+
+    <!---------------- end of portfolio ------------------------->
+
+    <script src="main.js"></script>
+</body>
+</html>
