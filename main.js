@@ -1,10 +1,13 @@
+
+// TYPED TEXT
+
 var typed = new Typed('.text1', {
     strings: ['frontend developer', 'web developer'],
     typeSpeed: 50,
     loop: true
 });
 
-// circle skills
+// CIRCLE OF SKILLS
 
 const circles = document.querySelectorAll('.circle');
 circles.forEach(elem => {
@@ -26,7 +29,7 @@ circles.forEach(elem => {
     }
 })
 
-// sticky navbar
+// STICKY NAVBAR
 
 const header = document.querySelector("header");
 window.addEventListener("scroll",function(){

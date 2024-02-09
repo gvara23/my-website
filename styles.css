@@ -14,7 +14,7 @@ body {
     color: white;
 }
 
-/* --------------- header section ------------------- */
+/* --------------- HEADER ------------------- */
 
 .header {
     position: fixed;
@@ -62,7 +62,7 @@ header.sticky{
     color: brown;
 }
 
-/* ----------------- home page section ------------ */
+/* ----------------- HOME  ------------------ */
 
 .home {
     position: relative;
@@ -162,7 +162,7 @@ header.sticky{
     0 0 25px brown, 0 0 25px brown;
 }
 
-/* --------------- about me section ----------------- */
+/* ---------------  ABOUT ME  --------------------- */
 
 .about-me{
     display: grid;
@@ -213,7 +213,7 @@ header.sticky{
     color: brown;
 }
 
-/* ---------------- formation section -----------------*/
+/* ---------------- FORMATION -----------------*/
 #formation{
     padding: 70px 0;
 }
@@ -258,7 +258,7 @@ header.sticky{
     margin-bottom: 20px;
 }
 
-/* ----------------- skills section ------------------*/
+/* ----------------- SKILLS ------------------*/
 
 .skills{
     margin-bottom: 20vh;
@@ -398,7 +398,7 @@ header.sticky{
     animation-delay:  calc(var(--i)*0.05s);
 }
 
-/* ------------------- portfolio ----------------*/
+/* ------------------- PORTFOLIO ----------------*/
 
 .work-list{
     display: grid;
@@ -484,7 +484,34 @@ header.sticky{
     background: brown;
 }
 
-/* --------------------- keyframes section -------------------- */
+/* --------------------- CONTACT ------------------------------ */
+
+#contact{
+    padding: 70px 0;
+}
+
+.contact-left{
+    display: block;
+    justify-content: center;
+    text-align: center;  
+    margin-bottom: 5%;  
+}
+
+/* .contact-right{
+    flex-basis: 60%;
+} */
+
+.contact-left p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.contact-left p i {
+    color: brown;
+    margin-right: 15px;
+    font-size: 25px;
+}
+/* --------------------- KEYFRAMES -------------------- */
 
 @keyframes slideRight {
     0% {
@@ -660,7 +687,7 @@ nav .bx{
     }
 }
 
-
+/* responsive for tablet screens */
 
 @media only screen and (max-width: 770px){
     .home-container{
